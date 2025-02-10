@@ -80,7 +80,7 @@ const CarouselComponent = () => {
                 className=" price d-flex align-items-center justify-content-center bg-light rounded pt-2 px-3 position-absolute start-50 translate-middle"
                 style={{ zIndex: 2 }}
               >
-                <h2 className="text-primary m-0">$35</h2>
+                <h2 className="text-primary m-0">₹1500</h2>
               </div>
               <h4>{service.title}</h4>
               <hr class="text-primary w-50 mx-auto mt-0" />
