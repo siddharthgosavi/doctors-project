@@ -59,8 +59,7 @@ function Footer() {
             <div className="col-lg-4 col-md-6">
               <h3 className="text-white mb-4">Get In Touch</h3>
               <p className="mb-2">
-                <i className="bi bi-geo-alt text-primary me-2"><FaLocationArrow/></i>123 Street,
-                New York, USA
+                <i className="bi bi-geo-alt text-primary me-2"><FaLocationArrow/></i>Dental Clinic in Somwar Peth, Pune, Maharashtra, India.
               </p>
               <p className="mb-2">
                 <i className="bi bi-envelope-open text-primary me-2"><FaEnvelopeOpen/></i>
@@ -133,9 +132,9 @@ function Footer() {
                 Developed by{" "}
                 <a
                   className="text-white border-bottom"
-                  href="https://htmlcodex.com"
+                  href="https://portfolio-16nw8allb-siddharthgosavi.vercel.app/"
                 >
-                  TechnoSoft Solutions Pvt. Ltd.
+                  Siddharth S Gosavi
                 </a>
                 <br />
               </p>
