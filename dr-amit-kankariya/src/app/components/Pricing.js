@@ -6,11 +6,11 @@ function Pricing() {
   return (
     <div
       id="pricing"
-      className="container py-5 wow fadeInUp"
+      className="container-fluid py-5 wow fadeInUp"
       data-wow-delay="0.1s"
     >
-      <div className="container" style={{ height: "600px" }}>
-        <div className="row g-5">
+      <div className="container customMargin">
+        <div className="row">
           <div className="col-lg-5">
             <div className="section-title mb-4">
               <h5 className="position-relative d-inline-block text-primary text-uppercase">
@@ -37,7 +37,7 @@ function Pricing() {
             </h1>
           </div>
           <div className="col-lg-7">
-            <div className="slider-container carousel-container wow zoomIn">
+            <div className="wow zoomIn">
               <CarouselComponent />
             </div>
           </div>

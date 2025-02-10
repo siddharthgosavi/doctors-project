@@ -69,7 +69,7 @@ const CarouselComponent = () => {
     <div className="carousel-container">
       <Slider {...settings}>
         {services.map((service) => (
-          <div key={service.id} className="carousel-slide">
+          <div key={service.id} className="carousel-slide1">
             <img
               src={service.image}
               alt={service.title}
@@ -83,16 +83,16 @@ const CarouselComponent = () => {
                 <h2 className="text-primary m-0">₹1500</h2>
               </div>
               <h4>{service.title}</h4>
-              <hr class="text-primary w-50 mx-auto mt-0" />
+              <hr className="text-primary w-50 mx-auto mt-0" />
 
               <ul>
                 {service.features.map((feature, index) => (
                   <div
                     key={index}
-                    class="d-flex justify-content-between mb-3 px-4"
+                    className="d-flex justify-content-between mb-3 px-4"
                   >
                     <span>{feature}</span>
-                    <i class="fa fa-check text-primary pt-1">✔</i>
+                    <i className="fa fa-check text-primary pt-1">✔</i>
                   </div>
                 ))}
               </ul>

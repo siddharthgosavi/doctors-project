@@ -129,15 +129,16 @@ function Footer() {
             </div>
             <div className="col-md-6 text-center text-md-end">
               <p className="mb-0">
-                Developed by{" "}
+                Developer{" "}
                 <a
-                  className="text-white border-bottom"
+                  className="border-bottom"
                   href="https://portfolio-16nw8allb-siddharthgosavi.vercel.app/"
                 >
                   Siddharth S Gosavi
                 </a>
                 <br />
               </p>
+              <span className="mb-0" style={{opacity: 0.1, fontSize:'5px'}}>Designed by <a className="border-bottom" href="https://htmlcodex.com">HTML Codex</a></span>
             </div>
           </div>
         </div>

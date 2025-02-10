@@ -13,10 +13,7 @@ function Carousel() {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <Image className="w-100 h-75" src={carousel1} alt="Image" />
-            <div
-              className="carousel-caption w-100 h-100 d-flex flex-column align-items-center justify-content-center"
-              style={{ marginLeft: "-286px" }}
-            >
+            <div className="carousel-caption carousel-caption-margin  w-100 h-100 d-flex flex-column align-items-center justify-content-center">
               <div className="p-3" style={{ maxWidth: "900px" }}>
                 <h5 className="text-white text-uppercase mb-3 animated slideInDown">
                   Keep Your Teeth Healthy
@@ -43,7 +40,6 @@ function Carousel() {
             <Image className="w-100  h-75" src={carousel2} alt="Image" />
             <div
               className="carousel-caption w-100 h-100 d-flex flex-column align-items-center justify-content-center"
-              style={{ marginLeft: "-228px" }}
             >
               <div className="p-3" style={{ maxWidth: "900px" }}>
                 <h5 className="text-white text-uppercase mb-3 animated slideInDown">

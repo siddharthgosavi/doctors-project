@@ -142,6 +142,7 @@ h6,
   bottom: 0;
   background: rgba(9, 30, 62, 0.85);
   z-index: 1;
+  margin-left: -15%;
 }
 
 @media (max-width: 576px) {
@@ -301,11 +302,11 @@ h6,
 }
 
 .testimonial-carousel .owl-nav {
-  position: absolute;
+  position: relative;
   width: calc(100% + 46px);
   height: 46px;
-  top: calc(50% - 23px);
-  left: -23px;
+ 
+  
   display: flex;
   justify-content: space-between;
   z-index: 1;
@@ -320,7 +321,7 @@ h6,
   align-items: center;
   justify-content: center;
   color: #ffffff;
-  background: var(--primary);
+  background: var(--secondary);
   border-radius: 2px;
   font-size: 22px;
   transition: 0.5s;
@@ -335,3 +336,15 @@ h6,
   width: 120px;
   height: 120px;
 }
+
+.customMargin {
+  height: 600px !important;
+}
+
+@media (max-width: 991.98px) {
+  .customMargin {
+    height: 600px !important;
+    margin-bottom: 200px !important;
+  }  
+}
+

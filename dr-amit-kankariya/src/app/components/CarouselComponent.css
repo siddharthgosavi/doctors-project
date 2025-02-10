@@ -14,7 +14,7 @@
   position: relative;
 }
 
-.carousel-slide {
+.carousel-slide1 {
   width: 300px !important;
   background: #eef9ff;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
@@ -25,7 +25,7 @@
   padding-bottom: 60px; /* ✅ Ensures space for button */
 }
 
-.carousel-slide:hover {
+.carousel-slide1:hover {
   transform: scale(1.05);
 }
 
@@ -89,11 +89,11 @@ ul li {
 
 /* ✅ Fix Arrow Position */
 .nextArrow {
-  right: -30px;
+  right: -5px;
 }
 
 .prevArrow {
-  left: -30px;
+  left: -35px;
 }
 
 /* ✅ Show arrows always */
@@ -108,17 +108,24 @@ ul li {
   background: #108ebc !important;
 }
 
+
 /* 📱 Responsive Fix */
 @media (max-width: 768px) {
   .carousel-container {
-    max-width: 90%;
+    margin: auto;
   }
 
   .nextArrow {
-    right: 5px;
+    right: -25px;
   }
 
   .prevArrow {
-    left: 5px;
+    left: -25px;
+  }
+
+  .slick-slide div {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
